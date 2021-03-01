@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 18, 18);
+}
+header{
+    /*position: absolute;*/
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+header  h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -200px;
+    text-shadow: 2px 2px black;
+}
+
+header img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.buscar{
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 30px;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.buscar > input{
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 280px;
+}
+
+.buscar > button {
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(58, 121, 58);
+    color: white;
+}
+
+.buscarbtn:hover{
+    background-color: rgb(98, 168, 98);
+}
+
+.resultado{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resultadoUL li{
+    display: flex;
+    background-color: rgb(70, 63, 63);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    list-style: none;
+    width: 50%;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    justify-content:space-between;
+}
+
+.lyrics-btn{
+    cursor: pointer;
+    background-color: rgb(58, 121, 58);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.lyrics-btn:hover{
+    background-color: rgb(98, 168, 98);
+}
+
+.musica{
+    color: white;
+    max-width: 290px;
+}
+.musica{
+    margin: 0 auto;
+}
+
+
+
